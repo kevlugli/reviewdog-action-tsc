@@ -6,7 +6,7 @@ export REVIEWDOG_GITHUB_API_TOKEN="${INPUT_GITHUB_TOKEN}"
 
 
 
-echo ℹ️ tsc version: "$("$(npm root)"/.bin/tsc --version)"
+echo ℹ️ tsc version: "$(npx tsc --version)"
 
 echo "::group::📝 Running tsc with reviewdog 🐶 ..."
 
